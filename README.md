@@ -3,10 +3,15 @@ First Model Rocket with a flight computer to track barometric pressure, altitude
 
 ## Features
 *Track data about your rocket's flight to analyze after the flight.
+
 *Run IMU data into a Python script to display rocket stability throughout the whole flight.
+
 *See changes in pressure and temperature as altitude increases.
-*Hertz adjustable by changing variables IMURPS and BMPRPS (1-1000). 
+
+*Hertz adjustable by changing variables IMURPS and BMPRPS (1-1000).
+
 --> Both variables can be adjusted when the function is declared. 
+
 --> Be careful with how many readings per second you can take, given your microcontroller's strength.
 
 ## Hardware
