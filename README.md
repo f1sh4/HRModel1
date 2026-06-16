@@ -16,7 +16,11 @@ First Model Rocket with a flight computer to track barometric pressure, altitude
 
 ## Hardware
 *Arduino Uno/Nano: Main "Brain" for the computer.
+
 --> Can substitute with ESP32 but change SCL and SDA pins to GPIOs 22 and 21, respectively.
+
 *BMP280: Logging barometric pressure, temperature, and altitude.
+
 *IMU 9 Axis (MCU-20948 ICM-20948): Logs data on magnetic fields, has a gyroscope, and an accelerometer.
+
 *Silicon Power 16GB Micro SD-Card: Stores data
